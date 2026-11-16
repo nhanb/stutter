@@ -1,0 +1,10 @@
+(doctype)
+(html
+  [:lang 'en']
+  (head
+    (meta [:charset "utf-8"])
+    (title "Home"))
+  (body
+    (h1 [:class "foo" :id "bar"] "This is my home.")
+    "free text"
+    "more free text"))
